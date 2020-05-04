@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: com.samplecorp
+---
+testFramework: junit
+sourceLanguage: java
