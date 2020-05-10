@@ -203,8 +203,10 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.7.0</version>
                     <configuration>
+                        <fork>true</fork>
                         <compilerArgs>
                             <arg>-parameters</arg>
+                            <arg>-J-Dmicronaut.openapi.config.file=src/main/resources/openapi.properties</arg>
                         </compilerArgs>
                         <annotationProcessorPaths>
                             <path>
