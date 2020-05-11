@@ -166,6 +166,7 @@
                         <classpath/>
                         <argument>-noverify</argument>
                         <argument>-XX:TieredStopAtLevel=1</argument>
+                        <argument>-Dmicronaut.env.deduction=false</argument>
                         <argument>-Dcom.sun.management.jmxremote</argument>
                         <argument>${exec.mainClass}</argument>
                     </arguments>
