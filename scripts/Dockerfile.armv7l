@@ -1,0 +1,4 @@
+FROM arm32v7/adoptopenjdk:11-jre-hotspot
+RUN mkdir /opt/app
+COPY target/shop-app-*.jar /opt/app/shop-app.jar
+CMD ["java", "-jar", "/opt/app/shop-app.jar"]
